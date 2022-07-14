@@ -1,0 +1,201 @@
+body{
+    margin: 200px;
+    margin-top: 150px;
+}
+.window{
+    width: auto;
+    height: auto;
+    padding: 50px;
+    border: 1px solid lightgray;
+}
+.head{
+    width: auto;
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.head1{
+    display: flex;
+    flex-flow: wrap;
+}
+.task1{
+    margin-right: 5px;
+    font-size: 50px;
+    font-family: "Rubik", sans-serif;
+}
+.task2{
+    font-size: 50px;
+    font-family: "Kantumruy Pro", sans-serif ;
+}
+.add{
+    font-size: 40px !important;
+    height: 40px;
+    background-color: red;
+    position: relative;
+    border-radius: 50%;
+}
+.list{
+    font-size: 50px;
+    color: black;
+}
+.to{
+    width: auto;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.todo{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px lightgray;
+    font-size: 25px;
+}
+.n{
+    color: red;
+    text-align: center;
+    display: block
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    margin-left: 70px;
+}
+.comp{
+    text-decoration: line-through;
+    color: red;
+    font-size: 15px;
+    margin-left: 90px;
+}
+form{
+    text-align: left;
+    margin: 5px;
+    font-size: 15px;
+    color: red;
+}
+
+@media (min-width: 1001px){
+    .mobile{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+    .hima{
+        position: relative;
+        bottom: px;
+        left: px;
+    }
+    .container{
+        width: 100vw;
+        height:90vh ;
+    }
+    .hima{
+        left: calc((200vw - 200px)/2);
+        top: calc((100vh -200px)/2);
+    }
+}
+@media (min-width:401px) and (max-width:1000px) {
+    .window{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+    body{
+        display: flex;
+        margin:100px 10px;
+    }
+    .niki4{
+        width:90vw;
+        height: auto;
+        margin: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
+/*mobile*/
+@media (min-width:0px) and (max-width:400px) {
+    .window{
+        display: none;
+    }
+    .tablet{
+        display:none;
+    }
+    body{
+        display: flex;
+        margin:100px 10px;
+        align-items: center;
+        vertical-align: middles;
+        justify-content: space-around;
+    }
+}
+.mobile{
+    box-shadow: 2px 2px 5px lightgray;
+    width: 370px;
+    height: auto;
+    padding: 30px;
+}
+.niki{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    width: auto;
+    border: 1px soild red;
+}
+.niki3{
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+a{
+    color: black;
+}
+.niki3{
+    margin: 5px;
+    padding: 30px;
+    color: red;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 10px 10px 10px lightgray;
+    border-radius: 5px;
+}
+/*todo1 or navigation of add list*/
+.blur{
+    width: 100vw;
+    height:90vh ;
+    filter: blur(5px);
+}
+.hima{
+    color: red;
+    width: 200px;
+    height: 100px;
+    border: 2px solid red;
+    border-radius: 5px;
+    filter: drop-shadow(2px 2px 2px gray);
+    text-align: center;
+    position: absolute;
+    width: 200px;
+    left: calc((100vw - 200px)/2);
+    top: calc((100vh -200px)/2);
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+}
+.btn{
+    background-color: red;
+    border: 0ch;
+    border-radius: 80px;
+    color: white;
+}
+.text{
+   border: 2px solid red;
+   border-radius: 5px;
+}
